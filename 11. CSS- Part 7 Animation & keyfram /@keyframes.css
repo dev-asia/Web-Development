@@ -1,0 +1,46 @@
+div{
+    height: 100px;
+    width: 400px;
+    background-color: pink;
+    animation-name: height;
+    /* animation-name ki madaat sy template/animation ko 
+    selector ky saat link kiya hy */
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+/* short hand animation*/
+/* animation:height 2s ease-in 0s infinite alternate */
+
+
+
+
+/* Know we make a template/animation for div */
+@keyframes height {
+    /* starting point matlb 0%              */
+from
+{
+    font-size: 40px;
+}
+
+/* ending point 100% */
+to
+{
+    font-size: 80px;
+}
+from
+{
+    border-radius: 2px;
+}
+to
+{
+   border-radius: 20px;
+}
+}
+
+
+
+/* starting/ending ky elwa hum middle points bi dy sakty hy */
+

@@ -1,0 +1,32 @@
+div{
+    background-color: antiquewhite;
+    border: 3px solid black;
+}
+/* jb exactly screen ki width 300px ho  */
+@media (width : 300px) {
+    div{
+        background-color:hotpink;
+        color: aliceblue;
+    }
+}
+/* jb minmum screen ki width 800px 
+matlab 800px ya phir es ky oper oper  */
+@media (min-width:800px){
+    div{
+        background-color: red;
+    }
+}
+/* jb maxcimum screen ki width 200px ho
+matlab 200px ya phir es sy kaam */
+@media (max-width :200px) {
+    div{
+        background-color: blueviolet;
+    }
+    
+}
+/* jb screen ki width es rang ky darmyen may aye */
+@media (min-width:400px) and (max-width:800px) {
+    div{
+        background-color: yellow;
+    }
+}

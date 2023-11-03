@@ -1,0 +1,66 @@
+h1::first-letter{
+    color:#b22222;
+}
+#login{                         
+color: aqua;
+background-color: bisque;
+}
+#signup{
+    color: hotpink;
+    background-color: black;
+}
+nav ul li a {
+    color: rgb(0, 255, 55);
+}
+/* .follow{
+    color:magenta;
+} */
+h3{
+    color: tomato;
+}
+
+p{
+    color:blue;
+}
+/* normaly may asa color ho */
+.ua{
+    color: aliceblue;
+    background-color: black;
+}
+/* or jb ma isy ky oper kursur ly kr jou to color ye ho */
+.ua:hover{
+    background-color: yellow;
+    text-decoration:bold;
+}
+or jb ma isy ky oper click kro to color ye ho 
+.ua:active{
+    background-color: rgb(43, 226, 107);
+    color: black;
+   
+}
+.ur{
+    color:rebeccapurple;
+    background-color: antiquewhite;
+}
+.us{
+    color: brown;
+    background-color: aquamarine;
+}
+input{
+    background-color:greenyellow;
+}
+[placeholder="username"]{
+    color: red;
+}
+[placeholder ="password"]{
+    color:red;
+}
+/* :nth-of-type() is used for styling of seletor element of given order
+in a spacific position. */
+/* matlab  seletor element ko styling kry  skip kr ky jitni bar hum
+skip krny ko kahy  */
+
+
+p:nth-of-type(2n){
+    background-color: #b22222;
+}

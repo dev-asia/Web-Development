@@ -1,0 +1,23 @@
+.box{
+  
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 40px;
+}
+.two{
+    position: relative;
+    bottom: 90px;
+    left: 70px;
+    background-color: aqua;
+    z-index: -3;
+}
+/* nagetive index ki power postive index sy kaam hoti hy */
+.one{
+    position: relative;
+    z-index: 0;
+}
+/* hamesha positive index wala element  oper ki tarf
+display ho ga */

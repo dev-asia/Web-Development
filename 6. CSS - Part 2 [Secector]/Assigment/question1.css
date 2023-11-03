@@ -1,0 +1,31 @@
+#id{
+    color: blue;
+}
+*{
+    text-align: center;
+}
+h1,h3,h5{
+    font-family: Georgia;
+}
+.pra{
+    background-color: cornflowerblue;
+    columns: white;
+}
+div button{
+    background-color: purple;
+    color: azure;
+}
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+p:nth-of-type(odd){
+   color: yellow;
+}
+h1::first-letter{
+    color: red;
+}
+#yes:checked +label{
+color:darkgreen;
+
+}

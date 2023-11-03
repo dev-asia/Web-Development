@@ -1,0 +1,38 @@
+#id{
+    height: 60px;
+    background-color: black;
+    color: white;
+    
+}
+.a{
+    text-decoration: none;
+    color: white;
+    margin-left: 200px;
+    line-height: 50px;
+}
+#amazone{
+    color: orange;
+    font-size: 24px;
+}
+button{
+    background-color: orange;
+}
+#container{
+    height: 500px;
+    width: 350px;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 24px;
+   
+    
+}
+img{
+    height: 350px;
+    width: 350px;
+    
+}
+p{
+
+    justify-content: flex-end;
+}

@@ -1,0 +1,56 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: antiquewhite;
+    animation-name: animation_circle;
+    animation: animation_circle 3s ease-in 0s infinite alternate ;
+}
+
+@keyframes animation_circle{
+    /* font-size animation */
+    from
+    {
+        font-size: 20px;
+    }
+    to
+    {
+        font-size: 40px;
+    }
+    /* background-animation */
+    0%{
+        background-color: pink;
+    }
+    30%{
+        background-color: yellowgreen;
+    }
+    60%{
+        background-color: orangered;
+    }
+    100%{
+        background-color: rgb(217, 0, 255);
+    }
+    /* border-reduis */
+    form {
+        border-radius: 0px;
+    }
+    to 
+    {
+        border-radius: 50%;
+        text-align: center;
+    }
+    /* Margin animation */
+    from{
+        margin: 0px;
+    }
+to{
+    margin-left: 70%;
+}
+/* padding animation */
+form{
+    padding-top: 0px;
+}
+to{
+    padding-top: 10%;
+}
+
+}

@@ -1,0 +1,27 @@
+div{
+    height: 50px;
+    width: 900px;
+    border: 2px solid rgba(47, 255, 193, 0.393);
+    background-color: rgba(255, 192, 203 ,0.55);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+  
+  
+    
+}
+a{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 5px;
+    color: black;
+    line-height: 50px;
+    
+   
+   
+   
+    
+}

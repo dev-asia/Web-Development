@@ -1,0 +1,16 @@
+/* if we want apply opecity only color then we write it with rgb */
+/* In color opecity it repesent alfa (a) and its value (0,1)
+0 mean full hidding and 1 mean full visialble */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255,255,0, 0.9);
+}
+/* if we want apply opecity full element then we use the opecity propties */
+/* opecity matlab cheez ko kinta saaf ya dhondala dekhana */
+#opecity{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    opacity:0.5;
+}

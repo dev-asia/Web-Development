@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 4</title>
+    
+</head>
+<body>
+    <form action="action">
+<h2>Feedback Form</h2>
+<!-- Id is used for label a text with input type -->
+<!-- matlab input ky saat koi text write krna ho to id use  hoti hy -->
+<div>
+<label for="1">Name: </label>
+<input type="text" name="name" id="1" placeholder="Write your name">
+</div>
+<br>
+<div>
+    <label for="2">Email:</label>
+    <input type="email" id="2" name="Email" placeholder="Write your Email" pattern=".+@asia.com" size="31" required>
+</div>
+<br>
+<label for="3">Massage: </label>
+<br>
+    <textarea name="massage" id="3" cols="30" rows="4"></textarea> 
+  
+
+<br>
+<div>
+   Rate us our of 5: 
+   <br>
+   <label for="4">1</label>
+    <input type="radio"  id="4" name="Rate" value="one">
+</div>
+<div>
+    <!-- Here we use same name of all radio input type for 
+     making a group.
+    After making a group then only select one input radio type -->
+    <label for="5">2</label>
+    <input type="radio"  id="5" name="Rate" value="two">
+</div>
+<div>
+    <label for="6">3</label>
+    <input type="radio"  id="6"  name="Rate"value="three">
+</div>
+<div>
+<label for="7">4</label>
+<input type="radio" id="7" name="Rate" value="four">
+</div>
+<div>
+    <label for="8">5</label>
+    <input type="radio" id="8" name="Rate" value="five">
+</div>
+<div>
+    <button>Send your massage!</button>
+</div>
+
+    </form>
+    
+</body>
+</html>

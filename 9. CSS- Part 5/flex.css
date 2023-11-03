@@ -1,0 +1,21 @@
+#main{
+    height:700px;
+    width: 1000px;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    flex-wrap: wrap  ;
+    background-color: orange;
+    opacity: 0.40;
+    padding: 30px;
+
+
+    
+}
+div{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    font-size: 40px;
+}

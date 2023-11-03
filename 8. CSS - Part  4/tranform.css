@@ -1,0 +1,63 @@
+/* 1-for rotatin the element using this tranform propties */
+#rotate{
+    height: 75px;
+    width: 200px;
+    border: 3px solid black;
+    margin: 15px;
+    padding-left: 20px;
+    padding-top: 30px;
+    transform: rotate(-90deg);
+}
+/* 2-for big and small element using this tranform propties */
+#scale{
+    height: 75px;
+    width: 200px;
+    border: 3px solid black;
+    margin: 15px;
+    padding-left: 20px;
+    padding-top: 30px;
+    /* if we only effect on the [width(X)] */
+    transform: scalex(2) ;
+    /* if we only effect on the [higth(Y)] */
+    transform: scaleY(2);
+    /* for both higth and width */
+    transform: scale(2);
+
+}
+
+
+
+
+/* 3-khaach kr element ko dekhany ky lia using thie tranform propties */
+#skew{
+    height: 75px;
+    width: 200px;
+    border: 3px solid black;
+    margin: 15px;
+    padding-left: 20px;
+    padding-top: 30px;
+    /* skew and skewX same kaam krty hy */
+    /* en deno sy height pr koi fark ni prta */
+    transform: skew(-30deg);
+    transform: skewX(-30deg);
+    /* skewY write krny sy height ma bi effect prta hy */
+     transform: skewY(-30deg); 
+}
+
+
+ /* 4- for move the element using this propties */
+
+#translate{
+    height: 75px;
+    width: 200px;
+    border: 3px solid black;
+    margin: 15px;
+    padding-left: 20px;
+    padding-top: 30px;
+    /* only move height */
+    transform: translatey(100px);
+    /* only move width */
+    transform: translateX(100px);
+   /* only move width */
+    transform: translate(100px);
+}

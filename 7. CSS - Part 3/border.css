@@ -1,0 +1,9 @@
+span{
+    height: 300px;
+    width: 500px;
+    border: 3px dashed chartreuse;
+  border-radius: 25px;
+  padding: 20px;
+
+  display:inline-block;
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contanier{
+    padding: 0.5rem;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: /*jitny colum 1rst row may ho same otny  hi 2nd row*/
+    'nav nav nav'          /*may hony chehye*/
+    'side contnt ads'
+    'foter foter foter' 
+    ;              
+    
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr auto;
+    height: 100%;
+}
+
+.item{
+    background-color: palegreen;
+    border: 3px solid black;
+}
+
+.nav{
+    grid-area: nav; /* grid templet banany ky liya hr box ka grid name rakhy gy*/
+}   
+               /* grid name apni murzi sy koi bi rakh sakty hy*/
+.sidebar{
+    grid-area: side;
+    width: 300px;
+}
+
+.contnt{
+    grid-area: contnt;
+}
+
+.ads{
+    grid-area: ads;
+}
+
+.foter{
+    grid-area: foter;
+}

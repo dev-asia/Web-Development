@@ -1,0 +1,23 @@
+h1{
+    color:rgb(255,0, 255);
+    background-color:#ffffff;
+    text-align: center;
+    width: 30;
+    /* width ka mtlab hum element ko pori line may sy :
+    ; kinty jaga dy rahy hy  */
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+p{
+     color: rgb(255, 8, 0);
+}
+ul{
+    color: rgb(255, 127, 191);
+}
+b{
+    color: white;
+}
+i{
+    color: rgb(165, 226, 43);
+}

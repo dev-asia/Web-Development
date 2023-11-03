@@ -1,0 +1,66 @@
+
+#circle{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: yellow;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+}
+.eye1,.eye2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:white;
+    position: absolute;
+    top: 130px;
+    display: inline-block;
+}
+.eye1{
+    left: 100px;
+    transition-duration: 3s;
+}
+.eye2{
+    left: 250px;
+    transition-duration: 3s;
+}
+#mouth{
+    height: 75px;
+    width: 200px;
+    background-color: orangered;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: absolute;
+    top: 270px;
+    left: 100px;
+    transition-duration: 2s;
+    transition-delay: 2s;
+    transition-timing-function: ease-in;
+}
+#mouth:hover{
+ height:30px ;
+ width: 4px;   
+}
+.eye1:hover{
+    margin-top: 100px;
+}
+.eye2:hover{
+    margin-top: 100px;
+}
+.boll1,.boll2{
+    height: 20px;
+    width: 36px;
+    background-color:black;
+
+}
+.boll1,.boll2{
+    position: relative;
+    top: 25px;
+    left: 7px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+#circle:hover{
+    margin-top: 500px;
+}
+

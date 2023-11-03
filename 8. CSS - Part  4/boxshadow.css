@@ -1,0 +1,11 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: violet;
+    box-shadow: 2px 2px 10px green;
+    margin: auto;
+}
+/* first 2px matlab [width(X)] sy kinti door ho shadow */
+/* second 2px matlab [heigt(Y) sy kinti door ho shaow */
+/* third 10px matlab shadow ka size kaye hona cheye */
+    /* forth shadow ka color kon sa ho */

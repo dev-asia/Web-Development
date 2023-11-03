@@ -1,0 +1,33 @@
+/* normally ma h2 ka color asa ho */
+h2{
+    color: tomato;
+    background-color: antiquewhite;
+}
+/* element ko hover krna */
+
+/* matlab jb ma element ky oper cursar ly kr jou to element ka 
+color change ho jaye */
+h2:hover{
+    background-color: aqua;
+    text-decoration:underline;
+    color:green;
+}
+/* element ko active krna */
+/* matlab jb ma cursor sy element ko click kro to phir color change ho */
+h2:active{
+    color: yellow;
+
+}
+/* :nth-of-type() */
+/* ager hum chaty hy ky jaha h1 ho waha first h1 chod kr second h1 
+pr style apply ho jaye or phir end tak asa hi trteeb chalty rahy  */
+            /* 2 sy zyeda or kum  bi skiping kr sakty hy */
+h1:nth-of-type(2n){
+    color: cyan;
+    background-color: #0707695b;
+}
+/* ::selection */
+/* jb ma es ko web page ky oper select kro to es ka color yr  ho */
+h1::selection{
+    color: red;
+}
