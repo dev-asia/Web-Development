@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- This is boot-strap link -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+   
+</head>
+<body>
+    <!-- This is JavaScript link -->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <h1>Full color button style only use class</h1>
+    <button class="btn btn-danger">danger</button>
+    <button class="btn btn-success">success</button>
+    <button class="btn btn-primary">primary</button>
+    <button class="btn btn-secondary">secondary</button>
+    <button class="btn btn-warning">warning</button>
+    <button class="btn btn-info">info</button>
+    <button class="btn btn-light">light</button>
+    <button class="btn btn-dark">dark</button>
+    <button class="btn btn-link">link</button>
+    
+    <br>
+    <br>
+    <br>
+    <h1>Out Line Button style only use class</h1>
+    <button class="btn btn-outline-danger ">danger</button>
+    <button class="btn btn-outline-success ">success</button>
+    <button class="btn btn-outline-primary">primary</button>
+    <button class="btn btn-outline-secondary">secondary</button>
+    <button class="btn btn-outline-warning">warning</button>
+    <button class="btn btn-outline-info">info</button>
+    <button class="btn btn-outline-light">light</button>
+    <button class="btn btn-outline-dark">dark</button>
+    <button class="btn btn-outline-link">link</button>
+    <br>
+    <br>
+    <br>
+    <!-- button ko small krny ky lia -->
+    <h3>Button small</h3>
+    <button class="btn btn-outline-danger btn-sm ">danger</button>
+    <!-- button ko larg krny ky lia -->
+    <h3>Button large</h3>
+    <button class="btn btn-outline-danger btn-lg ">danger</button>
+    <br>
+    <br>
+    <br>    <!-- disabled ka matlab hy ye  button unclick ho jaye -->
+    <button class="btn btn-outline-warning " disabled>wrning</button>
+<h2>converting anger tags into button</h2>
+    <a href="#" class="btn btn-info">facebook</a>
+    <!-- anger tage ko be button may convert kr sakty hy
+    lakin fauncationallty sari anger tag ki hi rahy gi
+    sirf display button ki traha ho ga -->
+  
+
+
+                            <!--Button group-->
+                            <h1>Button group</h1>
+    <div class="btn-group">  
+        <button class="btn btn-danger ">danger</button>
+        <button class="btn btn-outline-success ">success</button>
+        <button class="btn btn-primary">primary</button>
+        <button class="btn btn-outline-secondary">secondary</button>                       
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- Anger tags ky link ko btn ki traha display kr ky
+    group bnana -->
+    <h1>Anger tags link group</h1>
+    <div class="btn-group">
+    <a href="#" class="btn btn-info">facebook</a>
+    <a href="#" class="btn btn-secondary">google</a>
+    <a href="#" class="btn btn-warning">safari</a>
+    <a href="#" class="btn btn-danger">amazone</a>
+   </div>
+   <!-- checkbox and radio ko button group may convert krna -->
+   <h2>checkbox and radie ko button group may convert kanra</h2>
+   <h3>checkbox</h3>
+<div class="btn-group">
+   <input type="checkbox" class=" btn-check" id="btncheck"  >
+   <label for="btncheck"class=" btn btn-outline-danger" >checkbox1</label>
+
+   <input type="checkbox" class=" btn-check" id="btncheck2"  >
+   <label for="btncheck2"class=" btn btn-outline-success" >checkbox2</label>
+          
+   <input type="checkbox" class=" btn-check" id="btncheck3"  >
+   <label for="btncheck3"class=" btn btn-outline-warning" >checkbox3</label>
+</div>   
+<br>
+<br>
+<h3>radio button</h3> 
+<div class="btn-group-vertical">
+<input type="radio"  id="radio1" class="btn-check" name="radio">
+<label for="radio1" class="btn btn-outline-info">radio1</label>
+
+<input type="radio"  id="radio2" class="btn-check" name="radio">
+<label for="radio2" class="btn btn-outline-info">radio2</label> 
+
+<input type="radio"  id="radio3" class="btn-check" name="radio">
+<label for="radio3" class="btn btn-outline-info">radio3</label>    
+</div>
+<br>
+<br>
+<br>
+<h1>Toolbar</h1>
+<div class="btn-toolbar">
+<div class="btn-group me-2 ">
+<button class="btn btn-primary">1</button>
+<button class="btn btn-primary">2</button>
+<button class="btn btn-primary">3</button>
+<button class="btn btn-primary">4</button>
+</div>
+<div class="btn-group me-2 ">
+<button class="btn btn-secondary">5</button>
+<button class="btn btn-secondary">6</button>
+<button class="btn btn-secondary">7</button>
+</div>
+<div class="btn-group">
+    <button class="btn btn-info">8</button>
+
+</div>
+</div>
+<br>
+<br>
+<br>
+<h1>Toolbar</h1>
+<div class="btn-toolbar mb-3">
+        <div class="btn-group me-2 ">
+        <button class="btn btn-outline-secondary">1</button>
+        <button class="btn btn-outline-secondary">2</button>
+        <button class="btn btn-outline-secondary">3</button>
+        <button class="btn btn-outline-secondary">4</button>
+        </div>
+
+        <div class="input-group">
+        <div class="input-group-text" btnGroupAddon>@</div>
+        <input type="text" placeholder="input text" >
+        </div>
+</div>
+
+
+<!-- Dropdown -->
+<h1>Dropdown</h1>
+<div class="btn-group-vertical btn-group-lg">
+    <button class="btn btn-primary">Button</button>
+    <button class="btn btn-primary">Button</button>
+    
+<div class="btn-group">
+    <button  class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown</button>
+    <ul class="dropdown-menu">
+        <li><a href="#" class="dropdown-item">Dropdown link</a></li>
+        <li><a href="#" class="dropdown-item">Dropdown link</a></li>
+    </ul>
+</div>
+<div class="btn-group dropup">
+    <button  class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown</button>
+    <ul class="dropdown-menu">
+        <li><a href="#" class="dropdown-item">Dropdown link</a></li>
+        <li><a href="#" class="dropdown-item">Dropdown link</a></li>
+    </ul>
+</div>
+<div class="btn-group dropend">
+    <button  class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown</button>
+    <ul class="dropdown-menu">
+        <li><a href="#" class="dropdown-item">Dropdown link</a></li>
+        <li><a href="#" class="dropdown-item">Dropdown link</a></li>
+    </ul>
+</div>
+<div class="btn-group dropstart">
+    <button  class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown</button>
+    <ul class="dropdown-menu">
+        <li><a href="#" class="dropdown-item">Dropdown link</a></li>
+        <li><a href="#" class="dropdown-item">Dropdown link</a></li>
+    </ul>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<p>Bootstrap sy kist bi cheez ki styling add krny ky lia os ki class
+    use krty hy 
+</p>
+
+    
+
+</body>
+</html>
