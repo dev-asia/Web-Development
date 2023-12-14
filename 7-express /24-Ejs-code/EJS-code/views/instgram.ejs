@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instgram</title>
+</head>
+<body>
+    <h1>This is page of <%= username %></h1>
+    <button>Follow  </button>
+    <button>Message</button>
+    <h2>Account that follow you:</h2>
+    <ul>
+        <% for(fol of followers){ %>
+            <li><%= fol%></li> 
+        <% } %>
+    </ul>
+
+
+
+    <!--
+        Templets same rahta hy bs hamri search ky
+        matabk information change hoti hy
+     -->
+</body>
+</html>

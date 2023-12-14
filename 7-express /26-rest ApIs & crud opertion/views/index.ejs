@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJS TEMPLATES</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Quora</h1>
+
+    <% for (let entry of data) { %>
+        <div>
+            <h3><%= entry.username %></h3>
+            <h4><%= entry.content %></h4> 
+           <a href="http://localhost:8000/posts/<%= entry.id %>/edit">Edit</a>
+           <br>
+           <form method="post" action="/posts/<%= entry.id %>?_method=DELETE">
+            <button>Delete post</button>
+          </form>
+        
+   
+            <br>
+            <a href="http://localhost:8000/posts/<%= entry.id %>">See details</a>
+
+        </div>
+    <% } %>
+ <br>
+ <br>
+ <br>
+ <a href="http://localhost:8000/posts/new">creat new post</a>
+</body>
+</html>
