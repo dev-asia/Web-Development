@@ -1,4 +1,4 @@
-
+//Use of APIs
 let url = "https://catfact.ninja/fact"
 fetch(url)                     //send request to APIs
  .then((res)=>{
