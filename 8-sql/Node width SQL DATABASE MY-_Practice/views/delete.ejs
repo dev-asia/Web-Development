@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Employ</title>
+    <%- include('include.ejs') %>
+</head>
+<body>
+    <b>Danger Zone</b>
+    <h1>Delete Employ</h1>
+    <h3>To confirm, type <b><%=result[0].name%></b> in the box below</h3>
+    <form method="post" action="/employs/delete/<%=result[0].id%>?_method=DELETE">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Please enter name">
+        <button>sumbit</button>
+    </form>
+</body>
+</html>

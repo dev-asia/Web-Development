@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Views All data</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1> Total employs: <%= result.length%></h1>
+  <button class="add">
+    <a href="http://localhost:3002/employs/new">add new employ</a>
+  </button>
+  
+   <% for(let data of result){ %>
+       <div>
+      <h2>Name:
+        <%= data.name %>
+      </h2>
+      <h3>Id:
+        <%= data.id %>
+      </h3>
+      <h3>Age:
+        <%= data.age %>
+      </h3>
+      <h3>Salary:
+        <%= data.salary %>
+      </h2>
+      <button class="delete">
+        <a href="http://localhost:3002/employs/delete/<%=data.id%>">Delete</a>
+      </button>
+      <button class="edit">
+        <a href="http://localhost:3002/employs/edit/<%=data.id%>">Edit</a>
+      </button>
+    </div>
+      <hr>
+   <%} %>
+</body>
+</html>

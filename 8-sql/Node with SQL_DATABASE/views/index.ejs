@@ -1,0 +1,52 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data from Database</title>
+</head>
+<body>
+  <h1>Data from Database</h1>
+  <h2>Count of users: <%= results.length %> %></h2>
+  <table border="black">
+    <thead>
+      <tr>
+        <th>Photo</th>
+        <th>UserID</th>
+        <th>UserName</th>
+        <th>Email</th>
+        <th>Delete User</th>
+        <th>Edit</th> <!-- Added column for Edit link -->
+      </tr>
+    </thead>
+    <tbody> <!-- Use tbody for the table body -->
+      <% results.forEach(item => { %>
+        <tr>
+          <td>
+            <img src="<%= item.photo %>" alt="img" height="100px">
+          </td>
+          <td>
+            <%= item.userId %>
+          </td>
+          <td>
+            <%= item.username %>
+          </td>
+          <td>
+            <%= item.email %>
+          </td>
+          <td>
+            <a href="http://localhost:8080/user/<%= item.userId %>/edit">Edit Name</a>
+          </td>
+          <td>
+           <a href="http://localhost:8080/user/<%= item.userId %>/delete">Delete Post</a>
+            
+          </td>
+        </tr>
+      <% }); %>
+    </tbody>
+  </table>
+  
+    
+</body>
+</html>
