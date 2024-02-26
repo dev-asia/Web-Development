@@ -1,0 +1,52 @@
+h1{
+    background-color:blanchedalmond ;
+}
+
+.student{
+    background-color: antiquewhite;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+  
+   
+}
+.delete{
+    background-color:red;
+}
+.update{
+    background-color: green;
+}
+button:hover{
+    opacity: 0.4;
+}
+button{
+    padding: 8px;
+    background-color:rgb(241, 240, 255);
+    border: none;
+    font-weight: 900;
+    font-size: 17px;
+    border-radius: 20px;
+}
+button:active{
+    transform: scale(0.9);
+}
+b{
+    color: red;
+}
+i{
+    color: green;
+}
+.add{
+    background-color: aquamarine;
+}
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}

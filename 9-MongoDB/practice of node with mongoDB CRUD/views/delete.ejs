@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Delete student</h1>
+   <h2>Please write <b> "<%= student.name %>" </b> for delete</h2>
+    <form method="POST" action="/students/<%= student._id %>?_method=DELETE">
+        <input type="text" name="name" required placeholder="please write name of student">
+        <button type="submit" class="delete">Delete resource</button>
+    </form>
+</body>
+</html>

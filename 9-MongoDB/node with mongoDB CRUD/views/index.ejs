@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="/chats/new">
+        Create new chat
+    </a>
+    <h1>All Chats</h1>
+    <% for(chat of chats){ %>
+    <div>
+        <p>From: <b><i><%= chat.from %></i></b> </p>
+        <p class="msg"><%= chat.msg %></p>
+        <p>To: <b><i><%= chat.to %></i></b></p>
+        <p><%= chat.date.toString().split(" ")[4]%></p>
+        <p><%= chat.date.toString().split(" ").slice(0,4).join("-")%></p>
+        <a href="/chats/edit/<%= chat._id%>">
+            <button class="edit">Edit</button>
+        </a>
+        <a href="/chats/delete/<%= chat._id%>">
+            <button class="delete">Delete</button>
+        </a>
+        <hr>
+    </div>
+    <br><br>
+   <% } %>
+
+</body>
+</html>

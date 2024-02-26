@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Edit marks </h1>
+    <form method="POST" action="/students/<%=stud._id %>?_method=PUT">
+        <h2>Write <i>"<%= stud.name %>"</i> in input filed for edit</h2>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="write you'r name"><br><br>
+        <label for="marks">Marks:</label><br>
+        <textarea name="new_marks" id="marks" cols="30" rows="3">
+            <%= stud.marks %>
+        </textarea>
+     
+        <button>submit</button>
+    </form>
+ 
+</body>
+</html>
