@@ -10,7 +10,7 @@ app.use(methodOverride('_method'))
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-// getting-started.js
+// getting-started.js with mongoose
 const mongoose = require('mongoose');
 const { stringify } = require('querystring');
 const { decode } = require('punycode');
